@@ -1,6 +1,6 @@
 from django.db import models
-
-from utils.models import Property as P, PropertyDetails as PDetails
+from utils.models import Property as P
+from utils.models import PropertyDetails as PDetails
 
 
 class Property(P, models.Model):
