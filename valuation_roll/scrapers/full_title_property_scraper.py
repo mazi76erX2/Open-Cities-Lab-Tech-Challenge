@@ -86,7 +86,6 @@ def main() -> None:
         table_data = scrape_table(driver, "frameSearch", "searchResultTable")
         for row in table_data:
             print(row)  # Process or store the data as needed
-            # TODO: will i ever?
     except (
         TimeoutException,
         NoSuchElementException,
